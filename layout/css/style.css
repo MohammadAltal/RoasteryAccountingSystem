@@ -1,0 +1,501 @@
+/* start include fonts */
+@font-face{
+    src:url('../fonts/vip-hakm-bold.ttf');
+    font-family: 'vip-hakm-bold';
+}
+@font-face{
+    src:url('../fonts/droid-sans.ttf');
+    font-family: 'droid-sans';
+}
+/* end include fonts */
+body{
+    padding-bottom: 100px;
+}
+/* start navbar */
+.navbar{
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+.navbar>.container .navbar-brand {
+    font-size: 2em;
+    font-family: 'vip-hakm-bold';
+    margin-left: 20px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 1.5em;
+    font-family: 'droid-sans';
+    cursor: pointer;
+}
+
+/* end navbar*/
+
+/* Start body page */
+.body-page{
+    background-image: url("../img/cover.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 450px;
+    padding: 0px;
+}
+.body-page .body-page-inside{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: table;
+    height: 450px;
+    width: 100%;
+}
+.body-page .body-page-inside p{
+    vertical-align: middle;
+    display: table-cell;
+    color: #fff;
+    font-family: 'vip-hakm-bold';
+    font-size: 4.5em;
+}
+.body-page .body-page-inside p span{
+    font-size: 40px;
+}
+/* End body page */
+
+
+/* Start Product Area */
+.product-area{
+    background-color:  #fff ;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.product-area h1{
+    font-family: 'vip-hakm-bold';
+    
+    font-size: 3em;
+}
+.product-area h5{
+    font-family: 'droid-sans';
+    font-weight: bold;
+    font-size: 2em;
+}
+ .custom-hr{
+    border-color: #000;
+    border-width: 2px;
+    width: 50%;
+}
+.custom-hr-plus{
+    border-color: #000;
+    border-width: 2px;
+    width: 100%;
+}
+.custom-hr-doted{
+    border-color: #000;
+    border-width: 1px;
+    border-style:dashed;
+    width: 70%;
+    margin-top: 20px;
+    float: right;
+}
+.custom-hr2{
+    border-color: #000;
+    border-width: 1px;
+}
+.custom-h2{
+    font-family: 'droid-sans';
+    margin-top: 50px; 
+}
+.product-area .items-box{
+    margin-top: 50px;
+}
+
+.product-area .items-box .item{
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: right;
+    font-family: 'droid-sans';
+    background-color: #f2f2f2 ;
+    height: 350px;
+   
+    overflow: hidden;
+    word-wrap: break-word;
+
+}
+.product-area .items-box .item img{
+    margin-bottom: 10px;
+    width: 80%;
+    height: 50%;
+}
+.product-area .items-box .item ul li {
+   padding-top: 5px;
+   padding-bottom: 5px;
+	font-size: 20px;
+}
+.product-area .items-box .item ul li span{
+    width: 100px;
+    font-size: 20px;
+	display: inline-block;
+}
+.product-area .items-box .item ul li a{
+    margin-left: 10px;
+}
+
+/* End Product Area */
+
+/* Start Footer */
+.footer{
+    height: 50px;
+    background-color: #e6e6e6;
+    border-top: 0.5px solid  #999999;
+    font-family: 'droid-sans';
+    padding: 10px;
+
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+
+
+}
+/* End Footer */
+
+/* Start Modal */
+.modal-title{
+    font-family: 'droid-sans';
+}
+.modal-footer button{
+    font-family: 'droid-sans';
+}
+.login{
+	width: 350px;
+	margin: 20px auto;
+}
+
+.login input{
+	margin: 10px;
+}
+
+/* End Modal */
+
+/* Start Global Style */
+
+.breadcrumb{
+    direction: rtl;
+    font-family: 'droid-sans';
+    font-size: 1.5em;
+    margin-top: 20px;
+    background-color: #fff;
+    position:absolute;
+    top: 50px;
+    right: 100px;
+    left: 100px;
+}
+.container-box{
+    margin-top: 80px;
+     
+}
+.control-label{
+
+    text-align: center;
+}
+.msg{
+    font-family: 'droid-sans';
+    font-size: 1.5em;
+    text-align: center;
+    padding: 5px;
+    width: 50%;
+}
+form{
+    font-family: 'droid-sans';
+}
+/* End Global Style */
+
+/* Start Style items.php */
+.panel-group{
+    text-align: right;
+    font-family: 'droid-sans';
+    margin-top: 10px;
+}
+.panel-group a{
+    text-decoration: none;
+}
+.panel-group a .panel-heading{
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+.panel-group a .panel-heading h4{
+    font-size: 1.5em;
+}
+.table-resposive{
+    direction: rtl;
+}
+.main-table tr:first-child td{
+	background-color: #000;
+    color: #FFF;
+    font-size: 20px;
+}
+.main-table tr td{
+    font-size: 18px;
+    
+}
+.main-table tr{
+    padding-top: 110px;
+}
+.form-control{
+    text-align: right;
+    direction:rtl;
+}
+form{
+    text-align: right; 
+}
+
+/* End Style items.php */
+
+#inputs{
+    margin-top: 10px;
+}
+
+/* Start style employee.php */
+ .emp{
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: right;
+    font-family: 'droid-sans';
+    background-color: #f2f2f2 ;
+    height: 400px; 
+    overflow: hidden;
+    word-wrap: break-word;
+}
+.emp-add{
+    height: 350px; 
+}
+ .emp img{
+    margin-bottom: 5px;
+    width: 50%;
+    height: 30%;
+}
+.emp-add img{
+    width: 60%;
+    height: 40%;
+}
+ .emp ul li {
+   padding-top: 5px;
+   padding-bottom: 5px;
+	font-size: 18px;
+}
+ .emp ul li span{
+    width: 135px;
+    font-size: 18px;
+	display: inline-block;
+}
+.emp ul li a{
+    margin-left: 10px;
+}
+.no-emp{
+    font-size: 30px;
+    font-family: 'droid-sans';
+    margin-top: 100px;
+}
+.add-emp{
+    font-family: 'droid-sans';
+}
+.emp-add img{
+    margin-bottom: 20px;
+}
+.information .panel-heading{
+    text-align: right;
+    font-family: 'droid-sans';
+    font-size: 20px;
+}
+/* End style employee.php */
+
+/* Start style vip.php */
+.vip{
+    height: 300px; 
+}
+.vip img{
+    margin-bottom: 10px;
+}
+.vip ul li span{
+    width: 70px;
+}
+.vip-add {
+    height: 250px; 
+}
+.vip-add img{
+    margin-bottom: 10px;
+    width: 65%;
+    height: 45%;
+}
+
+.bills , .cash h1{
+    font-family: 'droid-sans';
+}
+.cash-tabel{
+    max-width: 500px;
+    margin: 10px auto;
+}
+
+/* End style vip.php */
+
+/* Start style dashboard.php */
+.dashboard{
+    direction: rtl;
+
+    font-family: 'droid-sans';
+}
+/* End style dashboard.php */
+
+/* Start style dashboard2.php */
+.admin2-box a:hover{
+    text-decoration-line: none;
+}
+.admin2-box a h1{
+    font-family: 'vip-hakm-bold';
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: #333;
+}
+/* End style dashboard2.php */
+
+/* Start Style bill.php */
+.All-bill a{
+    font-family: 'droid-sans';
+}
+.All-bill a{
+    font-family: 'droid-sans';
+    font-size: 20px;
+    margin: 10px;
+}
+table{
+    font-family: 'droid-sans'; 
+}
+.message-no-bill{
+    font-family: 'droid-sans'; 
+    font-size: 40px;
+    margin: 100px;
+}
+.message-no-bill span{
+    color: rgb(199, 8, 8);
+}
+.date-col{
+    width: 150px;
+}
+.item-info{
+    text-align: right;
+    font-family: 'droid-sans'; 
+}
+.item-info h2{
+	margin: 0px;
+		padding: 0px 10px;
+}
+.item-info p {
+	font-size: 20px;
+	padding: 10px 10px;
+}
+
+.item-info ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+.item-info ul li{
+	padding:10px;
+	font-size: 20px;
+}
+.item-info ul li:nth-child(odd){
+	background-color: #eee;
+}
+.item-info ul li span{
+	width: 150px;
+	display: inline-block;
+}
+.items{
+    border-right: 1px solid #000;
+    font-family: 'droid-sans';
+}
+.items h2{
+    margin-bottom: 10px;
+}
+.items span{
+    display: block;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+.items span:last-child{
+    border-bottom:none;
+    margin-bottom: 10px;
+}
+.custom-price span{
+    border: none;
+    display:inline-block;
+}
+
+/* End Style bill.php */
+
+/* Start Style dashboard.php */
+.home-stats h1{
+    font-family: 'droid-sans'; 
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: #8c8c8c;
+}
+.home-stats .stat{
+	padding: 20px;
+	font-size: 20px;
+	color: #fff;
+	border-radius: 5px;
+	position: relative;
+    overflow: hidden;
+    font-family: 'droid-sans'; 
+
+}
+.home-stats .stat i{
+	font-size: 75px;
+	position: absolute;
+	top: 30px;
+	left: 20px;
+}
+.home-stats .stat .info{
+	float: right;
+}
+.home-stats .stat a{
+	color: #fff;
+}
+.home-stats .stat a:hover{
+	text-decoration: none;
+}
+.home-stats .stat span{
+	font-size: 50px;
+	display: block;
+}
+.home-stats .st-member{
+	background-color: #3498db;
+}
+.home-stats .st-pinding{
+	background-color: #c0392b;
+}
+.home-stats .st-item{
+	background-color: #d35400;
+}
+.home-stats .st-comment{
+	background-color: #8e44ad;
+}
+.home-stats .value{
+    font-size: 25px;
+    font-family: 'droid-sans'; 
+    float: right;
+}
+.home-stats .value span{
+    display: inline-block;
+}
+/* End Style dashboard.php */
+
+/* Start Style service.php */
+.resultBox{
+    width: 300px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 2px solid #c56d6d;
+    font-size: 50px;
+    border-radius: 5px;
+}
+/* End Style service.php */
